@@ -4,7 +4,8 @@ userinput_saleri=float(userinput_saleri)
 def netto_zu_brutto(np, mwst=1.19):
     return np*mwst
 
-print(netto_zu_brutto(userinput_saleri, 1.20))
+print(round(netto_zu_brutto(userinput_saleri, 1.20), 2))
+
 
 
 
